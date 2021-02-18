@@ -116,6 +116,7 @@ This site was built with localization in mind, meaning, it is available in three
 Next, look for the key `intro` and make changes in the corresponding value.
 
 If you want to add additional text on the page, follow this steps:
+
 0. Change the branch to `dev`;
 1. Add the html tag in `About.js`;
 2. Instead of pasting the contents in the tag itself, use a descriptive key and write it in the `i18next` syntax: `{t("your-key")}`;
@@ -139,6 +140,7 @@ _NOTE_: The order matters!
 
 ### Change PDFs
 In order to change the PDFs (that appear in the Principles section), follow these steps:
+
 0. Change the branch to `dev`;
 1. Navigate to `scr/assets/files`;
 2. Copy the name and delete the file you no longer need;
@@ -160,6 +162,7 @@ This site was built with localization in mind, meaning, it is available in three
 Next, look for the key `title` and make changes in the corresponding value.
 
 If you want to add additional text on the page, follow this steps:
+
 0. Change the branch to `dev`;
 1. Add the html tag in `PrinciplesContainer.js`;
 2. Instead of pasting the contents in the tag itself, use a descriptive key and write it in the `i18next` syntax: `{t("your-key")}`;
@@ -183,6 +186,7 @@ This site was built with localization in mind, meaning, it is available in three
 Next, look for the key `TYPES` and make changes in the corresponding value.
 
 If you want to add additional text on the page, follow this steps:
+
 0. Change the branch to `dev`;
 1. Add the html tag in `Legend.js`;
 2. Instead of pasting the contents in the tag itself, use a descriptive key and write it in the `i18next` syntax: `{t("your-key")}`;
@@ -206,6 +210,7 @@ This site was built with localization in mind, meaning, it is available in three
 Next, look for the `TYPES` key and make changes in the corresponding value.
 
 If you want to add additional text on the page, follow this steps:
+
 0. Change the branch to `dev`;
 1. Add the html tag in the correct component;
 2. Instead of pasting the contents in the tag itself, use a descriptive key and write it in the `i18next` syntax: `{t("your-key")}`;
